@@ -21,11 +21,7 @@ I'm a Software Developer from Kathmandu, Nepal, specializing in Android Developm
 - GitHub: [@arjunkatwal24](https://github.com/arjunkatwal24)
 - LinkedIn: [@arjunkatwal24](https://linkedin.com/in/arjunkatwal24)
 - X: [@arjunkatwal24](https://x.com/arjunkatwal24)
-- Email: arjunkatwal24@gmail.com
-
-## Portfolio
-
-Visit [arjunkatwal.com.np](https://arjunkatwal.com.np) to see my work.`;
+- Email: arjunkatwal24@gmail.com`;
 
 export async function GET() {
   return new Response(content, {

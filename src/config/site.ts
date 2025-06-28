@@ -5,6 +5,14 @@ export const SITE_INFO = {
   title: "Arjun Katwal - Android Developer & Web Developer from Nepal",
   description:
     "Android Developer and Web Developer from Kathmandu, Nepal. Building apps and websites that solve real problems for the Nepali community.",
+  keywords: [
+    "Android Developer",
+    "Web Developer",
+    "Nepal",
+    "Kathmandu",
+    "Portfolio",
+    "Software Engineer",
+  ],
   url: "https://arjunkatwal.com.np",
   ogImage: "https://arjunkatwal.com.np/og/domain",
   links: {

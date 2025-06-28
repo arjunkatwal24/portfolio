@@ -1,12 +1,15 @@
-import { USER } from "@/data/user";
 import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
-  name: USER.displayName,
-  url: process.env.APP_URL || "https://arjunkatwal.com.np",
-  ogImage: USER.ogImage,
-  description: USER.bio,
-  keywords: USER.keywords,
+  name: "Arjun Katwal",
+  title: "Arjun Katwal - Android Developer & Web Developer from Nepal",
+  description:
+    "Android Developer and Web Developer from Kathmandu, Nepal. Building apps and websites that solve real problems for the Nepali community.",
+  url: "https://arjunkatwal.com.np",
+  ogImage: "https://arjunkatwal.com.np/og/domain",
+  links: {
+    github: "https://github.com/arjunkatwal24/portfolio",
+  },
 };
 
 export const META_THEME_COLORS = {

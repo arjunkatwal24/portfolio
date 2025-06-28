@@ -3,13 +3,13 @@ import { getAllPosts } from "@/data/blog";
 
 const allPosts = getAllPosts();
 
-const content = `# arjunkatwal.com.np
+const content = `# Arjun Katwal's Portfolio
 
-> arjunkatwal.com.np is my minimal portfolio website, showcasing my work and experience as an Android Developer, Web Developer, and Videographer/Editor.
+> Android Developer and Web Developer from Kathmandu, Nepal, building apps and websites that solve real problems for the Nepali community.
 
-- [About](${SITE_INFO.url}/about.md): A quick intro to me, my tech stack, and how to connect.
-- [Experience](${SITE_INFO.url}/experience.md): Highlights from my career and key roles I've taken on.
-- [Projects](${SITE_INFO.url}/projects.md): Selected projects that show my skills and creativity.
+- [About](${SITE_INFO.url}/about.md): Learn about my skills, experience, and how to connect
+- [Experience](${SITE_INFO.url}/experience.md): My journey in software development and video content creation
+- [Projects](${SITE_INFO.url}/projects.md): Android apps, web platforms, and video projects
 
 ## Blog
 
@@ -21,7 +21,7 @@ export const dynamic = "force-static";
 export async function GET() {
   return new Response(content, {
     headers: {
-      "Content-Type": "text/markdown;charset=utf-8",
+      "content-type": "text/markdown",
     },
   });
 }

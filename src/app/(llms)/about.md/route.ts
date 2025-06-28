@@ -1,36 +1,36 @@
-import { USER } from "@/data/user";
-import { SOCIAL_LINKS } from "@/features/profile/data/social-links";
-import { TECH_STACK } from "@/features/profile/data/tech-stack";
-import { decodeEmail, decodePhoneNumber } from "@/utils/string";
+export const dynamic = "force-static";
 
-const content = `# About
+const content = `# About Arjun Katwal
 
-${USER.about.trim()}
+I'm a Software Developer from Kathmandu, Nepal, specializing in Android Development, Web Development, and Video Content Creation.
 
-## Personal Information
+## Skills & Expertise
 
-- First Name: ${USER.firstName}
-- Last Name: ${USER.lastName}
-- Birth date: ${USER.dateOfBirth}
-- Location: ${USER.address}
-- Phone: ${decodePhoneNumber(USER.phoneNumber)}
-- Email: ${decodeEmail(USER.email)}
-- Website: ${USER.website}
-
-## Social Links
-
-${SOCIAL_LINKS.map((item) => `- [${item.title}](${item.href})`).join("\n")}
+- **Android Development**: Building apps for the Nepali community with 4+ published apps
+- **Web Development**: Creating e-commerce platforms and business websites
+- **Video Content**: Producing engaging content for business marketing
 
 ## Tech Stack
 
-${TECH_STACK.map((item) => `- [${item.title}](${item.href})`).join("\n")}\n`;
+- **Mobile**: Java, Kotlin, Android Studio
+- **Web**: PHP, MySQL, WordPress, Next.js
+- **Design**: Adobe Premiere Pro, After Effects, Photoshop
 
-export const dynamic = "force-static";
+## Connect
+
+- GitHub: [@arjunkatwal24](https://github.com/arjunkatwal24)
+- LinkedIn: [@arjunkatwal24](https://linkedin.com/in/arjunkatwal24)
+- X: [@arjunkatwal24](https://x.com/arjunkatwal24)
+- Email: arjunkatwal24@gmail.com
+
+## Portfolio
+
+Visit [arjunkatwal.com.np](https://arjunkatwal.com.np) to see my work.`;
 
 export async function GET() {
   return new Response(content, {
     headers: {
-      "Content-Type": "text/markdown;charset=utf-8",
+      "content-type": "text/markdown",
     },
   });
 }

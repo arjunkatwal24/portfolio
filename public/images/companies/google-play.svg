@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="256" height="256">
+  <defs>
+    <linearGradient id="playGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA4335"/>
+      <stop offset="100%" style="stop-color:#FBBC04"/>
+    </linearGradient>
+    <linearGradient id="playGradient2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0F9D58"/>
+      <stop offset="100%" style="stop-color:#4285F4"/>
+    </linearGradient>
+    <linearGradient id="playGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA4335"/>
+      <stop offset="100%" style="stop-color:#FBBC04"/>
+    </linearGradient>
+    <linearGradient id="playGradient4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F9D58"/>
+      <stop offset="100%" style="stop-color:#4285F4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Google Play triangle logo -->
+  <path d="M3.5 3.5C3.5 3.22 3.72 3 4 3C4.11 3 4.22 3.04 4.3 3.11L20.3 11.61C20.71 11.86 20.71 12.44 20.3 12.69L4.3 21.19C4.22 21.26 4.11 21.3 4 21.3C3.72 21.3 3.5 21.08 3.5 20.8V3.5Z" fill="url(#playGradient1)"/>
+  
+  <!-- Triangle sections for gradient effect -->
+  <path d="M3.5 3.5L11.5 11.5L4.3 3.11C4.22 3.04 4.11 3 4 3C3.72 3 3.5 3.22 3.5 3.5Z" fill="url(#playGradient2)"/>
+  <path d="M11.5 11.5L20.3 11.61C20.71 11.86 20.71 12.44 20.3 12.69L11.5 12.5Z" fill="url(#playGradient3)"/>
+  <path d="M11.5 12.5L20.3 12.69L4.3 21.19C4.22 21.26 4.11 21.3 4 21.3C3.72 21.3 3.5 21.08 3.5 20.8L11.5 12.5Z" fill="url(#playGradient4)"/>
+</svg> 
